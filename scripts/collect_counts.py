@@ -16,7 +16,7 @@ API_FILE = 'api_key.txt'
 
 # Set label for secondary terms to run
 #   Options: 'cognitive', 'disorders', 'erp'
-LABEL = 'cognitive'
+LABEL = 'mn_le_modality'
 
 # Set collection settings
 LOGGING = None
@@ -43,10 +43,10 @@ def main():
 
     else:
 
-        counts.add_terms('erps.txt', dim='A', directory=TERMS_DIR)
-        counts.add_terms('erps_exclude.txt', term_type='exclusions',
+        counts.add_terms('mn_le_erps.txt', dim='A', directory=TERMS_DIR)
+        counts.add_terms('mn_le_exclude.txt', term_type='exclusions',
                          dim='A', directory=TERMS_DIR)
-        counts.add_labels('erp_labels.txt', dim='A', directory=TERMS_DIR)
+        counts.add_labels('mn_le_erp_labels.txt', dim='A', directory=TERMS_DIR)
 
         if LABEL != 'erp':
             counts.add_terms(LABEL + '.txt', dim='B', directory=TERMS_DIR)

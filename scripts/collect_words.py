@@ -10,7 +10,7 @@ from lisc.utils import SCDB, save_object, load_api_key
 TEST = False
 
 # Set label for collection
-LABEL = 'erps'
+LABEL = 'erp'
 
 # Set locations / names for loading files
 DB_NAME = '../data'
@@ -48,9 +48,9 @@ def main():
 
     else:
 
-        words.add_terms('erps.txt', directory=TERMS_DIR)
-        words.add_terms('erps_exclude.txt', term_type='exclusions', directory=TERMS_DIR)
-        words.add_labels('erp_labels.txt', directory=TERMS_DIR)
+        words.add_terms('mn_le_erps.txt', directory=TERMS_DIR)
+        words.add_terms('mn_le_exclude.txt', term_type='exclusions', directory=TERMS_DIR)
+        words.add_labels('mn_le_erp_labels.txt', directory=TERMS_DIR)
 
     print('\n\nRUNNING WORDS COLLECTION')
 

@@ -1,0 +1,12 @@
+N20, N20m, cN20m
+P22, P22m, cP22m
+P27, P27m, cP27m
+P30, P30m, cP30m
+P35, P35m, cP35m
+N45, N45m, cN45m
+P50, P50m, cP50m
+P60, P60m, cP60m
+N1
+P1
+N2
+P2

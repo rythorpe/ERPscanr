@@ -1,0 +1,2 @@
+SEP, somatosensory evoked potential, somatosensory-evoked potential, SEF, somatosensory evoked field, somatosensory evoked magnetic field, somatosensory-evoked field, median nerve stimuli, median nerve stimulus
+LEP, laser evoked potential, laser-evoked potential, nociceptive somatosensory stimuli, nociceptive somatosensory stimulus, laser stimuli, laser stimulus
